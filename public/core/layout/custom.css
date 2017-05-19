@@ -1,0 +1,98 @@
+/*custom created*/
+* {
+    margin: 0px;
+    padding: 0px;
+
+}
+
+.static-height{
+    height: 54px;
+    align-content: center;
+}
+li a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+
+.full-height{
+    height:100%;
+}
+
+.full-width{
+    width:100%;
+}
+
+li a:hover {
+    background-color: #333;
+}
+.form-wrapper{
+    padding: 15px;
+}
+
+
+
+/**/
+html, body {
+    margin: 0;
+    padding: 0;
+    height: 100%;
+}
+body {
+    margin: 0 auto;
+    padding: 0;
+    font-family: 'Roboto', sans-serif;
+    font-size: 16px;
+    width: 100%;
+}
+h2 {
+    text-align: center;
+    font-size: 18px;
+}
+h5 {
+    text-align: center;
+    font-size: 12px;
+    margin: 0;
+}
+.window {
+    height: 200px;
+    width: 470px;
+    color: white;
+    margin: 10px auto;
+}
+.window-code {
+    width: 470px;
+    overflow: auto;
+}
+pre {
+    margin: 5px auto;
+}
+.blue {
+    background-color: #42a5f5;
+}
+.amber {
+    background-color: #ffc400;
+}
+.teal {
+    background-color: #26a69a;
+}
+.red {
+    background-color: #ef5350;
+}
+.cyan {
+    background-color: #4dd0e1;
+}
+.orange {
+    background-color: #ffa726;
+}
+.pink {
+    background-color: #f06292;
+}
+.gray {
+    background-color: #e0e0e0;
+}
+.sidebar{
+
+}

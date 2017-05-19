@@ -1,0 +1,7 @@
+<script type="text/html" id="app-sidebar-inner">
+    <ul class="vbox pink full-height">
+        <li data-bind="foreach: menu">
+            <a href="#" data-bind="text: $data"></a>
+        </li>
+    </ul>
+</script>

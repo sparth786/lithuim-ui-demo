@@ -1,0 +1,16 @@
+<script type="text/html" id="app-main-inner">
+<div class="form-wrapper">
+    <form class="form">
+        <label>First Name:</label>
+        <input type="text" class="flex namefield form-control"
+               placeholder="Your name" data-bind="value: fname" />
+        <label>Last Name:</label>
+        <input type="text" class="flex namefield form-control"
+               placeholder="Your name" data-bind="value: lname" />
+    </form>
+    <li-button class="btn" ref="submitBtn">Submit</li-button>
+    <br>
+    <span class="text" data-bind="visible: showText">Data send Successfully..... </span>
+    <span class="text" data-bind="visible: showErr">Some Data Are Empty </span>
+</div>
+</script>

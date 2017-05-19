@@ -1,0 +1,10 @@
+<script type="text/html" id="app-view-inner">
+    <div class="vbox full-width full-height">
+        <app-header></app-header>
+
+        <div class="hbox full-height">
+            <app-sidebar></app-sidebar>
+            <app-main></app-main>
+        </div>
+    </div>
+</script>

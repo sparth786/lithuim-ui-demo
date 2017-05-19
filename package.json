@@ -1,0 +1,41 @@
+{
+  "name": "lithium-ui",
+  "author": "munawwar",
+  "description": "Test suite for Lithium UI templating engine",
+  "version": "0.1.0",
+  "main": "core/util/Template.js",
+  "dependencies": {
+    "body-parser": "^1.17.2",
+    "express": "^4.15.2",
+    "http": "0.0.0",
+    "httperrors": "^2.2.0",
+    "jquery": "2.2.4",
+    "mongodb": "^2.2.26",
+    "nodemon": "^1.11.0",
+    "path": "^0.12.7"
+  },
+  "devDependencies": {
+    "mocha": "2.4.5",
+    "jsdom": "8.0.4"
+  },
+  "directories": {
+    "test": "test"
+  },
+  "scripts": {
+    "test": "make test"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://gitlab.com/Munawwar/lithium-ui"
+  },
+  "keywords": [
+    "html",
+    "knockout",
+    "templates"
+  ],
+  "license": "MIT",
+  "bugs": {
+    "url": "https://gitlab.com/Munawwar/lithium-ui/issues"
+  },
+  "homepage": "https://gitlab.com/Munawwar/lithium-ui"
+}

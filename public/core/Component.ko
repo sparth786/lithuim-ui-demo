@@ -1,0 +1,5 @@
+<script type="text/html" id="li-component-outer">
+    <div>
+        <!-- ko template: innerTpl --><!-- /ko -->
+    </div>
+</script>

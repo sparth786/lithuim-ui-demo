@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+    <script type="text/javascript" src="lib/system.src.js"></script>
+    <script type="text/javascript">
+        System.config({
+            paths: {
+                jquery: 'lib/jquery.js',
+                'css': 'lib/css.js',
+                'tpl': 'lib/systemjs-plugin-ko-tpl.js'
+            }
+        });
+    </script>
+    <script type="text/javascript">
+        System.import('./boot.js');
+    </script>
+</head>
+<body>
+<app-view class="vbox full-height full-width flex"></app-view>
+</body>
+</html>

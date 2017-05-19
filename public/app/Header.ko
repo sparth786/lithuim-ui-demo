@@ -1,0 +1,9 @@
+<script type="text/html" id="app-header-inner">
+    <ul class="hbox black" data-bind="foreach: headerMenu">
+        <li>
+            <a href="#" data-bind="text: $data">
+            </a>
+        </li>
+    </ul>
+
+</script>
